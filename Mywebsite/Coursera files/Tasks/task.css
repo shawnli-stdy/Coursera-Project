@@ -1,0 +1,64 @@
+.task {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px auto;
+    background-color: lightblue;
+}
+
+.two {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px auto;
+    background-color: lightblue;
+    display: block;
+    text-align: center;
+}
+
+.flexcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.flex {
+    width: 100px;
+    background-color: limegreen;
+    padding: 20px;
+    text-align: center;
+}
+
+.four {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 15px;
+    background-color: lightblue;
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    /* Creates 3 columns, each taking up an equal fraction (1fr) of the available space. */
+    grid-template-columns: repeat(6, 1fr);
+    /* Creates 2 rows with a minimum height of 100px that grows automatically if content requires more space. */
+    grid-template-rows: minmax(100px, auto);
+    /* Adds spacing between the grid cells. */
+    gap: 20px; 
+    /* Optional: center the grid on the page */
+    max-width: 940px; 
+    margin: 0 auto;
+}
+
+.box {
+    /* Basic styling for visibility */
+    background-color: #ffd8a8;
+    border: 2px solid #ffa94d;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+}
