@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelEase | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to TravelEase</h1>
+        <p>Discover your next adventure. We provide personalized recommendations for beaches, temples, and countries worldwide.</p>
+    </header>
+
+    <section id="search-container">
+        <input type="text" id="destinationInput" placeholder="Enter keyword (beach, temple, or country)...">
+        <button onclick="recommend()">Search</button>
+        <button onclick="clearResults()">Clear</button>
+    </section>
+
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
